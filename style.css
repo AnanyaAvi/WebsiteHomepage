@@ -1,0 +1,106 @@
+body{
+			margin:0;
+			padding: 0;
+		}
+		.nav_bar{
+			height:50px;
+		}
+		.nav_bar i{
+			font-size: 50px;
+			position: absolute;
+			left:200px;
+			top:5px;
+		}
+		.nav_bar a{
+			font-family: comic sans MS; 
+			text-decoration:none;
+			position: relative;
+			color:black;
+			padding: 18px;
+			left: 700px;
+			top:10px;
+		}
+		.mid_part{
+			background-color:grey;
+			height:450px;
+			width: 100%; 
+		}
+		.contents{
+			position: absolute;
+			top:100px;
+			left:450px;
+			color:white;
+		}
+		.contents h1{
+			font-size: 50px;
+			font-family: consolas;
+		}
+		button{
+			border-radius:50px 50px 50px 50px;
+			border-style: none;
+			background-color: darkgrey;
+			width:180px;
+			padding: 13px;
+		}
+		button a{
+			text-decoration: none;
+			color:white;
+			font-family: verdana;
+			font-size:15px ;
+		}
+		.box{
+			float:left;
+			width:250px;
+			padding: 20px;
+			position: relative;
+			left:240px;
+			bottom:100px;
+		}
+		.cards{
+			height:350px;
+		}
+		.card{
+			padding: 10px;
+			background-color: white;
+			height:280px;
+			box-shadow:4px 4px 4px 4px rgba(0,0,0,0.5);
+		}
+		.card i{
+			font-size: 60px;
+			position: absolute;
+			left:110px;
+			top:70px;
+		}
+		.card h3,p{
+			font-family: Calibri;
+		}
+		.footer{
+			text-align: center;
+			background-color: grey;
+			color:white;
+			padding:5px;
+			font-size:15px;
+		}
+
+		@media screen and (min-width:2560px){
+			.nav_bar a{left:1900px;}
+			.contents{left:1000px;}
+			.contents h1{font-size:65px;}
+			.contents p{font-size:20px;}
+			button a{font-size: 18px;}
+			.box{width:350px;padding:30px;left:655px;}
+			.cards{height:450px;}
+			.card{padding: 15px; height:350px;}
+			.card i{font-size:80px;left:160px;}
+			.card h3{font-size:30px;}
+			.card p{font-size:20px;}
+		}
+
+		@media screen and (max-width:1024px){
+			.nav_bar i{left:100px;}
+			.nav_bar a{left:500px;}
+			.contents{left:250px;}
+			.box{left:60px;}
+		}
+
+		
